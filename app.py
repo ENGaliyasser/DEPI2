@@ -93,7 +93,7 @@ from PIL import Image
 if section == "Home":
 
     # Home Page - Introduction
-    st.title("Welcome to the RFM Project Dashboard")
+    st.title("Welcome to the RFM Project")
 
     # Load and display the image
     img = Image.open("mohamedhesham.jpg")
