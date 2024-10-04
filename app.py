@@ -97,12 +97,12 @@ if section == "Home":
 
     # Load and display the image
     img = Image.open("ahmedhesham.jpg")
-    st.image(img, caption="Ahmed Hesham - Passionate Data Scientist")
+    st.image(img, caption="Mohamed Hesham - Passionate Data Scientist")
 
     # Introduction about yourself
     st.write("""
     ### About Me
-    Hi, I'm **Ahmed Hesham**, a passionate data scientist with a deep interest in leveraging data to drive insights and decisions. 
+    Hi, I'm **Mohamed Hesham**, a passionate data scientist with a deep interest in leveraging data to drive insights and decisions. 
     With a strong foundation in data analysis, I am constantly exploring new ways to enhance business operations through data-driven strategies.
     """)
 
@@ -520,4 +520,4 @@ elif section == "Prediction & Classification":
             "By analyzing these metrics, you can gain insights into how well your model is performing and where improvements might be needed.")
 
 st.sidebar.write("---")
-st.sidebar.markdown("Crafted with passion and precision by Ahmed Hesham 🚀")
+st.sidebar.markdown("Crafted with passion and precision by Mohamed Hesham 🚀")
