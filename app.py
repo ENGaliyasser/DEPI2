@@ -96,8 +96,10 @@ if section == "Home":
     st.title("Welcome to the RFM Project Dashboard")
 
     # Load and display the image
-    img = Image.open("ahmedhesham.jpg")
+    img = Image.open("mohamedhesham.jpg")
     st.image(img, caption="Mohamed Hesham - Passionate Data Scientist")
+    img2 = Image.open("mohamedhesham2.jpg")
+    st.image(img2, caption="Mohamed Hesham - Passionate Data Scientist")
 
     # Introduction about yourself
     st.write("""
